@@ -5,7 +5,7 @@
     padding: 0;
 }
 body {
-    height: 100vh;
+    /* height: 100vh; */
     box-sizing: border-box;
     background-color: black;
     color: #F6F6F6;
@@ -14,18 +14,52 @@ body {
 .titulo-destaque {
      color: #22D4FD;
 }
+
+.cabecalho{
+    padding: 3% 0% 0% 15%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu_home{
+    color:#22D4FD;
+    font-family: 'Montserrast', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+.cabecalho__menu_sobremim{
+    color:#22D4FD;
+    font-family: 'Montserrast', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.cabecalho__menu_curriculo{
+    color:#22fd59;
+    font-family: 'Montserrast', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+}
 .apresentaçao {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 10% 15%;
+    padding: 5% 15%;
 }
-.minha-imagem {
-    width: 480px;
+.minha_imagem {
+    width: 350px;
     height: auto;
-    margin-right: 20%;
+    margin-right: -10%;
     margin-top: 0%;
-    margin-left: 0;   
+    margin-left: 0;  
+    display: flex; 
+    
 }
 .apresentaçao__conteudo {
     width: 615px;
@@ -36,11 +70,11 @@ body {
     
 }
 .apresentaçao__conteudo__titulo {
-    font-size: 36px;
+    font-size: 26px;
     font-family:  "Krona One", serif;
 }
 .apresentaçao__conteudo__paragrafo {
-    font-size: 24px;
+    font-size: 20px;
     font-family: "Montserrat", serif;
 }
 .nome_enzo:hover{
@@ -52,7 +86,7 @@ body {
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    gap: 18px;
+    gap: 20px;
     
 }
 .apresentaçao__link_subtituloh2{
@@ -149,6 +183,19 @@ body {
 .apresentaçao__links__link04:hover{
     background-color: rgb(255, 0, 179);
     padding: 7%;
-    cursor: url(assets/icons8-cursor-16.png) auto;
+    cursor:grab;
 
+}
+.roda_pe{
+    color: #000000;
+    background-color: #22D4FD;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-family: 'Monteserrat', sans-serif;
+    padding: 9px;
+    font-weight: 400;
+}
+.roda_pe:hover{
+    background-color: red;
 }
