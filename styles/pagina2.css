@@ -86,3 +86,13 @@ body {
     margin-left: 0;  
     display: flex; 
 }
+
+
+.links_logos_foto:hover{
+    padding: 2px;
+}
+.links_logos_foto{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}

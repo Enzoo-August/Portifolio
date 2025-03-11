@@ -1,22 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');  * 
 
-{
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #22D4FD;
+}
+
+ *   {
     margin: 0;
     padding: 0;
 }
+
 body {
     /* height: 100vh; */
     box-sizing: border-box;
-    background-color: black;
-    color: #F6F6F6;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
     
 }
 .titulo-destaque {
-     color: #22D4FD;
+     color: var(--cor-terciaria);
 }
 
 .cabecalho{
-    padding: 3% 0% 0% 15%;
+    padding: 2% 0% 0% 15%;
 }
 
 .cabecalho__menu{
@@ -25,7 +32,7 @@ body {
 }
 
 .cabecalho__menu_home{
-    color:#22D4FD;
+    color: var(--cor-terciaria);
     font-family: 'Montserrast', sans-serif;
     font-size: 24px;
     font-weight: 600;
@@ -33,14 +40,14 @@ body {
 
 }
 .cabecalho__menu_sobremim{
-    color:#22D4FD;
+    color: var(--cor-terciaria);
     font-family: 'Montserrast', sans-serif;
     font-size: 24px;
     font-weight: 600;
     text-decoration: none;
 }
 .cabecalho__menu_curriculo{
-    color:#22fd59;
+    color:#ff0000;
     font-family: 'Montserrast', sans-serif;
     font-size: 24px;
     font-weight: 600;
@@ -99,7 +106,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 16px;
-    border: 2px solid #22D4FD;
+    border: 2px solid var(--cor-terciaria);
     width: 378px;
     text-align: center;
     border-radius: 8px;
@@ -107,7 +114,7 @@ body {
     font-weight: 600;
     padding: 21.5px 0; 
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: var(--cor-secundaria);
     font-family: "Montserrat", serif;
     margin-right: 3%;
  
@@ -119,14 +126,14 @@ body {
 
 
 .apresentaçao__links__link02 {
-    background-color: rgb(0, 0, 0);
+    background-color: var(--cor-primaria);
     display: flex;
     justify-content: center;
     gap: 16px;
-    border: 2px solid #22D4FD;
+    border: 2px solid var(--cor-terciaria);
     width: 378px;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: var(--cor-terciaria);
     text-decoration: none;
     border-radius: 8px;
     font-size: 24px;
@@ -142,11 +149,11 @@ body {
     cursor: all-scroll;
 }
 .apresentaçao__links__link03 {
-    background-color: rgb(0, 0, 0);
+    background-color: var(--cor-primaria);
     display: flex;
     justify-content: center;
     gap: 16px;
-    border: 2px solid #22D4FD ;
+    border: 2px solid var(--cor-terciaria) ;
     width: 378px;
     text-align: center;
     border-radius: 8px;
@@ -154,7 +161,7 @@ body {
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: var(--cor-secundaria);
     font-family: "Montserrat", serif;
     margin-right: 3%;
 }
@@ -168,7 +175,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 16px;
-    border: 2px solid #22D4FD;
+    border: 2px solid var(--cor-terciaria);
     width: 378px;
     text-align: center;
     border-radius: 8px;
@@ -188,7 +195,7 @@ body {
 }
 .roda_pe{
     color: #000000;
-    background-color: #22D4FD;
+    background-color: var(--cor-terciaria);
     display: flex;
     justify-content: center;
     font-size: 24px;
@@ -197,5 +204,13 @@ body {
     font-weight: 400;
 }
 .roda_pe:hover{
+    background-color: red;
+}
+
+.logo_instagram{
+    border: 15px solid red;
+}
+.logo_instagram:hover{
+    color: red;
     background-color: red;
 }
