@@ -18,7 +18,7 @@ body {
     --cor-primaria: #212121;
     --cor-secundaria: #ffffff;
     --cor-terciaria: #0D7377;
-    --cor-hover: #14FFEC;
+    --cor-hover: #5a5a5a;
 
     --fonte-primaria:"Krona One", sans-serif ;
     --fonte-secundaria:'Montserrast', sans-serif;
@@ -54,7 +54,7 @@ body {
     text-decoration: none;
 }
 .cabecalho__menu_curriculo{
-    color:#ff0000;
+    color:var(--cor-terciaria);
     font-family:var(--fonte-secundaria);
     font-size: 24px;
     font-weight: 600;
@@ -152,7 +152,7 @@ body {
 }
 .apresentaçao__links__link02:hover{
     background-color: var(--cor-hover);
-    padding: s
+    padding: 7%;
 }
 .apresentaçao__links__link03 {
     background-color: var(--cor-primaria);
