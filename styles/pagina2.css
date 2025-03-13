@@ -98,3 +98,21 @@ body {
     justify-content: flex-start;
     gap: 10px;
 }
+
+@media(max-width: 1200px) {
+    .cabecalho{
+        padding: 10%;
+    }
+
+    .cabecalho__menu{
+        justify-content: center;
+    }
+    .conteudo{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .aprensentacao_conteudo{
+        width: auto;
+    }
+}
