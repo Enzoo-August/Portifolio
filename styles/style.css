@@ -34,7 +34,7 @@ body {
 
 .cabecalho__menu{
     display: flex;
-    gap: 2.5rem;
+    gap: 40px;
 }
 
 .cabecalho__menu_home{
@@ -222,7 +222,7 @@ body {
 
     .cabecalho__menu{
         justify-content: center;
-        gap: 1.5625rem;
+        gap: 30px;
     }
     
     .apresentaçao{
