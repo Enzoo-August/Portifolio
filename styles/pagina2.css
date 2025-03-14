@@ -51,7 +51,7 @@ body {
     padding: 3% 15%;
 }
 
-.aprensentacao_conteudo_enzo{
+.apresentacao_conteudo_enzo{
     color: #14FFEC;
     display: flex;
     justify-content: space-between;
@@ -76,16 +76,16 @@ body {
 .roda_pe:hover{
     background-color: red;
 }
-.aprensentacao_conteudo_texto a{
+.apresentacao_conteudo_texto a{
     text-decoration: none;
     color:#14FFEC;
 }
 .foto_enzo{
     width: 50%;
     height: auto;
-    /* margin-right: -20%;
+    margin-right: -10%;
     margin-top: 0%;
-    margin-left: 0;   */
+    margin-left: 0;  
     display: flex; 
 }
 
@@ -113,7 +113,7 @@ body {
         padding: 5%;
     }
 
-    .aprensentacao_conteudo{
+    .apresentacao_conteudo{
         width: auto;
     }
 
