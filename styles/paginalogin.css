@@ -1,0 +1,125 @@
+body {
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190628/ourmid/pngtree-dark-wall-background-material-image_279996.jpg);
+
+    background-size: 100%;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    height: 100vh;
+    width: 100vw;
+    font-family: var(--fonte-primaria);  
+}
+
+.botao_entrar {
+    background-color: var(--cor-terciaria);
+    color: rgb(255, 0, 0);
+    border-radius: 510px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.botao_limpar{
+    background-color: var(--cor-terciaria);
+    color: rgb(255, 0, 0);
+    border-radius: 510px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.txtUsuario {
+    background-color: #fff;
+    border-radius: 510px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: none;
+}
+.txtUsuario:hover {
+    background-color: #fff;
+    border-radius: 510px;
+    padding: 11px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: none;
+}
+.txtSenha {
+    background-color: #fff;
+    border-radius: 510px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: none;
+}
+.txtSenha:hover {
+    background-color: #fff;
+    border-radius: 510px;
+    padding: 11px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: none;
+}
+.botao_cadastrar {
+    background-color: var(--cor-terciaria);
+    color: rgb(255, 0, 0);
+    border-radius: 510px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.botao_cadastrar:hover {
+    background-color: var(--cor-hover);
+    padding: 11px;
+    font-size: 1.25rem;
+    cursor: alias;
+}
+.botao_sair{
+    background-color: var(--cor-terciaria);
+    color: rgb(255, 0, 0);
+    border-radius: 510px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.botao_sair:hover {
+    background-color: var(--cor-hover);
+    padding: 11px;
+    font-size: 1.25rem;
+    cursor: alias;
+}
+
+
+.select_genero {
+    background-color: #fff;
+    border-radius: 510px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: none;
+}
+.select_genero:hover {
+    background-color: #fff;
+    border-radius: 510px;
+    padding: 11px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: none;
+}

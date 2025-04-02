@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/paginalogin.css">
 </head>
 <body>
     <form action="">
@@ -13,7 +14,8 @@
         id="txtUsuario"
         placeholder="Insira seu usuario"
         required
-        minlength="1">
+        minlength="1"
+        class="txtUsuario">
         <br>
         <label for="txtSenha">Senha: </label>
         <input type="password"
@@ -22,19 +24,22 @@
           placeholder="Insira sua senha"
           required
           minlength="1"
-          >
+          class="txtSenha">
           <br>
 
-        <button type="submit">Entrar</button>
-        <button type="reset">Limpar</button>
-
-        <input type="checkbox">
-        <label for="">Eu aceito os termos </label>
-        <select name="" id="">
+        <button type="submit" class="botao_entrar">Entrar</button>
+        <button type="reset" class="botao_limpar">Limpar</button>
+        <button type="button" class="botao_cadastrar">Cadastrar</button>
+        <button type="button" class="botao_sair">Sair</button>
+        
+        <select name="" id="" class="select_genero">
             <option value="">Escolha</option>
             <option value="">Homem</option>
             <option value="">Mulher</option>
             <option value="">Não me indentifico com nenhum desses</option>
+
+            <input type="checkbox">
+            <label for="">Eu aceito os termos </label>
 
         </select>
 
