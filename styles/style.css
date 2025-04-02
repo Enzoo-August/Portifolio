@@ -60,6 +60,15 @@ body {
     font-weight: 600;
     text-decoration: none;
 }
+
+.cabecalho__menu_login{
+    color: var(--cor-terciaria);
+    font-family:var(--fonte-secundaria) ;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
 .apresentaçao {
     display: flex;
     align-items: center;
