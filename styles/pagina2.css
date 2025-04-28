@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');  * 
+
+
+{
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: #212121;
+    color: #ffffff;
+    
+}
+.cabecalho{
+    padding: 3% 0% 0% 15%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu_home{
+    color:#0D7377;
+    font-family: 'Montserrast', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+.cabecalho__menu_sobremim{
+    color:#0D7377;
+    font-family: 'Montserrast', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+.cabecalho__menu_curriculo{
+    color:#0D7377;
+    font-family: 'Montserrast', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 15%;
+}
+
+.apresentacao_conteudo_enzo{
+    color: #14FFEC;
+    display: flex;
+    justify-content: space-between;
+    font-size: 300%;
+    gap: 10%;
+    padding: 5% 0% 2% 0%;
+}
+
+    
+
+
+.roda_pe{
+    color: #000000;
+    background-color: #0D7377;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-family: 'Monteserrat', sans-serif;
+    padding: 0.5625rem;
+    font-weight: 400;
+}
+.roda_pe:hover{
+    background-color: red;
+}
+.apresentacao_conteudo_texto a{
+    text-decoration: none;
+    color:#14FFEC;
+}
+.foto_enzo{
+    width: 50%;
+    height: auto;
+    margin-right: -10%;
+    margin-top: 0%;
+    margin-left: 0;  
+    display: flex; 
+}
+
+
+.links_logos_foto:hover{
+    padding: 0.125rem;
+}
+.links_logos_foto{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+@media(max-width: 1200px) {
+    .cabecalho{
+        padding: 10%;
+    }
+
+    .cabecalho__menu{
+        justify-content: center;
+        gap: 30px;
+    }
+    .conteudo{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao_conteudo{
+        width: auto;
+    }
+
+    
+}
